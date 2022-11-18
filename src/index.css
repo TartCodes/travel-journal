@@ -5,10 +5,15 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter";
+}
+
+main {
+  display: flex;
 }
 
 /* style */
+
 .header--box {
   display: flex;
   justify-content: center;
@@ -26,11 +31,43 @@ body {
   background-color: #f55a5a;
 }
 
-img {
+.logo {
   width: 25px;
   align-self: center;
 }
 
 h1 {
   color: black;
+}
+
+/* Main */
+
+.main--section {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+}
+
+.img--cont {
+  width: 35vw;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 125px;
+  height: 100%;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p,
+span {
+  font-size: 0.5rem;
+}
+
+div > span {
+  font-weight: bold;
 }
