@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: "Venice",
     location: "Italy",
     googleMapsUrl: "https://goo.gl/maps/S26w1awLze8KHpJ78",
@@ -11,6 +12,7 @@ export default [
       "https://cdn.britannica.com/63/153463-050-06B6270D/Grand-Canal-Venice.jpg",
   },
   {
+    id: 2,
     title: "London",
     location: "England",
     googleMapsUrl: "https://goo.gl/maps/QPgwxEfMQSaS5VLX6",
@@ -22,6 +24,7 @@ export default [
       "https://www.history.com/.image/t_share/MTYyNDg1MjE3MTI1Mjc5Mzk4/topic-london-gettyimages-760251843-promo.jpg",
   },
   {
+    id: 3,
     title: "Arikok National Park",
     location: "Aruba",
     googleMapsUrl: "https://goo.gl/maps/NNRxm3rk3599qaUe9",
