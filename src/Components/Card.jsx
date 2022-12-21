@@ -7,7 +7,7 @@ const Card = (props) => {
       </div>
       <section className="main--section">
         <h3>
-          {prop.location}
+          {prop.location.toUpperCase()}
           <a href={prop.googleMapsUrl}>View on Google Maps</a>
         </h3>
         <h2>{prop.title}</h2>
